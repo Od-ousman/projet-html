@@ -1,0 +1,106 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #f1f1f1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 10vw;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+.contenu {
+    flex: 1 0 auto;
+}
+
+
+.contenu p {
+    padding: 5vw 10vw;
+    text-align: justify;
+}
+
+.footer{
+    flex-shrink: 0;
+    border-top: 1px dashed #000;
+    width: 100%;
+    background: #f1f1f1;
+    color: #333;
+}
+
+.contenu-footer{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start
+    font-size: 20px;
+    padding: 50px 0 100px;
+}
+
+.bloc{
+    width: 25%;
+    margin: 0 30px;
+}
+
+/* contact */
+.footer-contact h3,
+.footer-services h3,
+.footer-medias h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.footer-contact p {
+    padding: 5px 0;
+}
+
+/* Services */
+
+.liste-services,
+.liste-horaires,
+.liste-media{
+    list-style-type: none;
+}
+
+.liste-services li{
+    padding: 2px 0;
+}
+
+.liste-services a {
+    text-decoration: none;
+    color: #333;
+}
+
+.liste-services a:hover{
+    color: rgb(3,3,3);
+}
+
+img{
+    width: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.container-end{
+    background-color: #242424;
+    color: #fff;
+    
+}
